@@ -1,0 +1,97 @@
+/* Center the whole box */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  margin: 0;
+}
+
+.box {
+  background-color: #FF9292;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading */
+#heading {
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  color: #FFDCDC;
+  text-decoration: underline rgb(126, 17, 99);
+}
+
+/* Input box */
+#input-box {
+  margin-top: 20px;
+  height: 50px;
+  width: 70%;
+  border: none;
+  border-radius: 20px;
+  padding: 0 15px;
+}
+
+#input-box:hover {
+  box-shadow: 0px 0px 9px #FFDCDC;
+}
+
+/* Add button */
+#but {
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #FFB4B4;
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#but:hover {
+  box-shadow: 0px 0px 9px #FFDCDC;
+}
+
+/* Task list container */
+#list {
+  margin-top: 20px;
+  width: 80%;
+}
+
+/* Each task row */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffb4b4;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* Task text */
+#myTask {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Delete button */
+#mybutton {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 35px;
+  width: 80px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
